@@ -1,0 +1,158 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #353535;
+  font-family: 'Segoe UI';
+  /* Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.container {
+  padding: 1em 2em;
+}
+
+.container:nth-child(1) {
+  background: #19a719;
+}
+
+.container h1 {
+  text-align: center;
+  color: white;
+}
+
+.container .search-bar {
+  display: block;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.container .search-bar .form-control {
+  padding: 0.65em;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  width: 80%;
+  outline: none;
+}
+
+.container .search-bar .btn {
+  background: #353535;
+  outline: none;
+  border: none;
+  font-size: 0.9em;
+  padding: 0.75em 2em;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.container .search-bar .btn:hover {
+  background-color: #474747;
+}
+
+.container .card {
+  margin: 0 5%;
+  padding: 0 5em;
+  border: 2px solid #e4e4e4;
+  border-radius: 15px;
+}
+
+.container .card .error-div {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  border-radius: 12px;
+  border: 1.5px solid #ca0404;
+  padding: 0.8em 1em;
+  background: #ca0404;
+  color: #fafafa;
+  -webkit-animation: disappear 0.2s 0.5s forwards ease-in-out;
+          animation: disappear 0.2s 0.5s forwards ease-in-out;
+}
+
+.container .card .inline-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .card .form-control {
+  padding: 0.65em;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  width: 75%;
+  outline: none;
+}
+
+.container .card .btn {
+  background: #353535;
+  outline: none;
+  border: none;
+  font-size: 0.9em;
+  padding: 0.75em 2em;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.container .card .btn:hover {
+  background-color: #474747;
+}
+
+.container .card h2:nth-child(2) {
+  padding-left: 0.5em;
+}
+
+.container .card .list-group {
+  padding: 0;
+}
+
+.container .card .list-group .list-group-item {
+  border: 1.5px solid #e4e4e4;
+  list-style-type: none;
+  padding: 0.8em 1em;
+  /* &:hover{
+                    background: rgb(228, 228, 228);
+                } */
+}
+
+.container .card .list-group .list-group-item .btn-red {
+  float: right;
+  padding: 0.2em 0.8em;
+  background: #ca0404;
+}
+
+.container .card .list-group .error-div {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  border-radius: 12px;
+  border: 1.5px solid #ca0404;
+  padding: 0.8em 1em;
+  background: #ca0404;
+  color: #fafafa;
+  -webkit-animation: disappear 0.2s 0.5s forwards ease-in-out;
+          animation: disappear 0.2s 0.5s forwards ease-in-out;
+}
+
+@-webkit-keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

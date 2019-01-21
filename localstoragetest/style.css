@@ -1,0 +1,24 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0 0 0 2em;
+}
+
+#deleteButton {
+  background: #ad0808;
+  color: white;
+  font-weight: 900;
+  padding: 0 1em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li {
+  margin: 1em 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 0 0 0 2em;
+}
+
+#deleteButton{
+    background: rgba($color: #ad0808, $alpha: 1.0);
+    color: white;
+    font-weight: 900;
+    //float: right;
+    padding: 0 1em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+li{
+    margin: 1em 0;
+}
